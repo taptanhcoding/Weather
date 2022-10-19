@@ -70,7 +70,6 @@ function Weather() {
           APPID: api.key,
         },
       });
-      console.log(apiWeather);
       setWeather(apiWeather);
     };
     if (query != "") {
