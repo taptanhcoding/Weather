@@ -1,0 +1,56 @@
+.wrapper {
+    & .content {
+        width: 400px;
+        min-height: 100vh;
+        & .search {
+            font-size: 1.6rem;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            &:focus-visible {
+                outline: none;
+            }
+        }
+        & .location-box {
+            width: 100%;
+            margin-top: 14px;
+            padding: 10px;
+            font-weight: 400;
+            font-size: 1.2rem;
+            & .location {
+                text-align: center;
+                color: #fff;
+                font-size: 1.8rem;
+            }
+            & .time {
+                text-align: center;
+                font-size: 1.1rem;
+            }
+
+            & .temp {
+                color: linear-gradient(black ,white);
+                font-size: 4rem;
+                font-weight: 600;
+                & .icon {
+                    top: -20px;
+                    right: 20px;
+                }
+            }
+            & .temp-detail {
+                font-size: 1rem;
+            }
+
+            & .weather {
+                text-align: right;
+                text-shadow: 1px 2px ;
+                font-size: 1.4rem;
+                color: #fff;
+                margin-right: 18px;
+                bottom:0;
+                right: 0;
+                transform: rotate(-90deg);
+                transform-origin: 60% 0;
+            }
+        }
+    }
+}
